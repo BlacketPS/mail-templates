@@ -1,0 +1,29 @@
+{
+    "name": "mail-templates",
+    "module": "index.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "build:declaration": "tsc --declaration --emitDeclarationOnly"
+    },
+    "dependencies": {
+        "@react-email/components": "^0.0.36",
+        "@react-email/render": "^1.0.6"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "private": true,
+    "type": "module",
+    "devDependencies": {
+        "@stylistic/eslint-plugin": "^4.2.0",
+        "@types/react": "^19.1.2",
+        "@types/react-dom": "^19.1.2",
+        "eslint": "^9.25.1",
+        "react": "^19.1.0"
+    }
+}
