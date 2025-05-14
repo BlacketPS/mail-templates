@@ -1,5 +1,5 @@
 {
-    "name": "mail-templates",
+    "name": "@blacket/mail-templates",
     "module": "index.ts",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
         "typescript": "^5"
     },
     "private": true,
-    "type": "module",
+    "type": "commonjs",
     "devDependencies": {
         "@stylistic/eslint-plugin": "^4.2.0",
         "@types/react": "^19.1.2",

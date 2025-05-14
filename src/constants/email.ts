@@ -1,0 +1,10 @@
+export const EMAIL_PADDING = 32;
+export const EMAIL_BORDER_RADIUS = 20;
+export const EMAIL_BUTTON_BORDER_RADIUS = 10;
+export const EMAIL_WIDTH = 640;
+export const EMAIL_BACKGROUND_COLOR = "#f9f9f9";
+export const EMAIL_H1_SIZE = 32;
+export const EMAIL_TEXT_SIZE = 16;
+export const EMAIL_SUBTEXT_SIZE = 14;
+export const EMAIL_SUPERTEXT_SIZE = 12;
+export const EMAIL_LINK_COLOR = "#007bff";

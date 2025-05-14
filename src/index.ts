@@ -1,1 +1,2 @@
-export { default as TestEmail } from "./TestEmail";
+export * from "./components";
+export * from "./constants";
