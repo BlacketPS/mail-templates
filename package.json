@@ -1,5 +1,6 @@
 {
     "name": "@blacket/mail-templates",
+    "version": "0.0.1",
     "module": "index.ts",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -11,8 +12,13 @@
         "build:declaration": "tsc --declaration --emitDeclarationOnly"
     },
     "dependencies": {
-        "@react-email/components": "^0.0.36",
-        "@react-email/render": "^1.0.6"
+        "@react-email/components": "^1.0.1",
+        "@react-email/container": "^0.0.15",
+        "@react-email/heading": "^0.0.15",
+        "@react-email/hr": "^0.0.11",
+        "@react-email/html": "^0.0.11",
+        "@react-email/render": "^2.0.0",
+        "@react-email/text": "^0.1.5"
     },
     "peerDependencies": {
         "typescript": "^5"
@@ -20,10 +26,10 @@
     "private": true,
     "type": "commonjs",
     "devDependencies": {
-        "@stylistic/eslint-plugin": "^4.2.0",
-        "@types/react": "^19.1.2",
-        "@types/react-dom": "^19.1.2",
-        "eslint": "^9.25.1",
-        "react": "^19.1.0"
+        "@stylistic/eslint-plugin": "^5.6.1",
+        "@types/react": "^19.2.6",
+        "@types/react-dom": "^19.2.3",
+        "eslint": "^9.39.1",
+        "react": "^19.2.0"
     }
 }
